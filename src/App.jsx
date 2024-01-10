@@ -15,8 +15,10 @@ const showStudentsNames = (array) => {
 function App() {
   return (
     <div className="App">
+      <h1>Boys</h1>
       <div className="boys">{showStudentsNames(boysNames)}</div>
       <hr />
+      <h1>Girls</h1>
       <div className="girls">{showStudentsNames(girlsNames)}</div>
     </div>
   );

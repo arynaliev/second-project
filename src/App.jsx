@@ -6,14 +6,7 @@ const girlsNames = ["Meka", "Aida", "Aigerim", "Janara", "Erkinai", "Alina"];
 
 const showStudentsNames = (array) => {
   return array.map((el, index) => (
-    <div
-      style={{
-        border: "1px solid black",
-        margin: "10px",
-        padding: "10px",
-        width: "100px",
-      }}
-    >
+    <div className="studentsBox">
       <span key={index}>{el}</span>
     </div>
   ));
